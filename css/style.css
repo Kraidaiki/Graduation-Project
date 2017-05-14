@@ -687,34 +687,52 @@ body {
 	display: inline-block;
 	height: 180px;
 	width: 260px;
-	overflow: hidden;
 }
-.row_3_container a:after {
-    display: block;
+.row_3_container a:nth-of-type(1):after, 
+.row_3_container a:nth-of-type(2):after, 
+.row_3_container a:nth-of-type(3):after {
+    display: inline-block;
     content: "";
-    width: 2px;
 	height: 52px;
-    margin: -475px 0 0 0;
-    background: #000;
+	width: 2px;
+    margin: 64px 0 64px 250px;
+    background: url(../img/sprites.png) no-repeat -1159px -677px; 
 }
-.row_3_container a:nth-of-type(1):hover img,
-.row_3_container a:nth-of-type(2):hover img,
-.row_3_container a:nth-of-type(3):hover img,
-.row_3_container a:nth-of-type(4):hover img {
-	margin-top: -180px;
+.row_3_container a:nth-of-type(1) {
+    background: url(../img/sprites.png) no-repeat -1624px -1508px;
 }
-.row_3_container a:nth-of-type(1):active img,
-.row_3_container a:nth-of-type(2):active img,
-.row_3_container a:nth-of-type(3):active img,
-.row_3_container a:nth-of-type(4):active img {
-	margin-top: -360px;
-} 
-.row_3_container a img:after {
-    content: "";
-    width: 2px;
-    height: 52px;
-    display: block;
-    background: url(../img/sprites.png) no-repeat -1197px -694px;
+.row_3_container a:nth-of-type(1):hover {
+    background: url(../img/sprites.png) no-repeat -1928px -1502px;
+}
+.row_3_container a:nth-of-type(1):active {
+    background: url(../img/sprites.png) no-repeat -1614px -1704px;
+}
+.row_3_container a:nth-of-type(2) {
+    background: url(../img/sprites.png) no-repeat -42px -1902px;
+}
+.row_3_container a:nth-of-type(2):hover {
+    background: url(../img/sprites.png) no-repeat -656px -1900px;
+}
+.row_3_container a:nth-of-type(2):active {
+    background: url(../img/sprites.png) no-repeat -350px -1900px;
+}
+.row_3_container a:nth-of-type(3) {
+    background: url(../img/sprites.png) no-repeat -962px -1898px;
+}
+.row_3_container a:nth-of-type(3):hover {
+    background: url(../img/sprites.png) no-repeat -1526px -1892px;
+}
+.row_3_container a:nth-of-type(3):active {
+    background: url(../img/sprites.png) no-repeat -1244px -1896px;
+}
+.row_3_container a:nth-of-type(4) {
+    background: url(../img/sprites.png) no-repeat -1930px -1700px;
+}
+.row_3_container a:nth-of-type(4):hover {
+    background: url(../img/sprites.png) no-repeat -2122px -1918px;
+}
+.row_3_container a:nth-of-type(4):active {
+    background: url(../img/sprites.png) no-repeat -1830px -1912px;
 }
 .wrap_row_3 {
     margin: 0 0 80px 0;

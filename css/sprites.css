@@ -1,4 +1,4 @@
-.nerds-logo, .nerds-logo-hover, .nerds-logo-click, .slide1, .slide2, .slide3, .icon-basket, .radio-on, .radio-on-hover, .radio-on-block, .radio-off, .radio-off-hover, .radio-off-block, .sort-down, .sort-down-hover, .sort-down-clic, .sort-up, .sort-up-hover, .sort-up-clic, .checkbox-off, .checkbox-off-hover, .checkbox-off-block, .checkbox-on, .checkbox-on-hover, .checkbox-on-block, .close-cross, .close-cross-hover, .close-cross-clic, .illustration-1.jpg, .illustration-2.jpg, .illustration-3.jpg, .nerds-illustration.jpg, .logo-1, .logo-1-hover, .logo-1-clik, .logo-2, .logo-2-hover, .logo-2-clik, .logo-3, .logo-3-hover, .logo-3-clik, .logo-4, .logo-4-hover, .logo-4-clik, .bgr, .map-marker, .fb-icon, .fb-icon-hover, .fb-icon-clik, .insta-icon, .insta-icon-hover, .insta-icon-clik, .vk-icon, .vk-icon-hover, .vk-icon-clik, .img-mishka.jpg, .img-pink.jpg, .img-sedona.jpg, .img-aplus.jpg, .img-barbershop.jpg, .img-kvast.jpg, .vertical-line, .pink-line, .active{
+.nerds-logo, .nerds-logo-hover, .nerds-logo-click, .slide1, .slide2, .slide3, .icon-basket, .radio-on, .radio-on-hover, .radio-on-block, .radio-off, .radio-off-hover, .radio-off-block, .sort-down, .sort-down-hover, .sort-down-clic, .sort-up, .sort-up-hover, .sort-up-clic, .checkbox-off, .checkbox-off-hover, .checkbox-off-block, .checkbox-on, .checkbox-on-hover, .checkbox-on-block, .close-cross, .close-cross-hover, .close-cross-clic, .illustration-1.jpg, .illustration-2.jpg, .illustration-3.jpg, .nerds-illustration.jpg, .bgr, .map-marker, .fb-icon, .fb-icon-hover, .fb-icon-clik, .insta-icon, .insta-icon-hover, .insta-icon-clik, .vk-icon, .vk-icon-hover, .vk-icon-clik, .img-mishka.jpg, .img-pink.jpg, .img-sedona.jpg, .img-aplus.jpg, .img-barbershop.jpg, .img-kvast.jpg, .vertical-line, .pink-line, .active, .logo-1, .logo-1-clik, .logo-1-hover, .logo-2, .logo-2-clik, .logo-2-hover, .logo-3, .logo-3-clik, .logo-3-hover, .logo-4, .logo-4-clik, .logo-4-hover{
 	background: url(../img/sprites.png) no-repeat;
 }
 
@@ -194,78 +194,6 @@
 	height: 208px;
 }
 
-.logo-1{
-	background-position: -998px -472px ;
-	width: 199px;
-	height: 68px;
-}
-
-.logo-1-hover{
-	background-position: -1237px -467px ;
-	width: 199px;
-	height: 68px;
-}
-
-.logo-1-clik{
-	background-position: -1494px -460px ;
-	width: 199px;
-	height: 68px;
-}
-
-.logo-2{
-	background-position: -419px -635px ;
-	width: 209px;
-	height: 87px;
-}
-
-.logo-2-hover{
-	background-position: -648px -631px ;
-	width: 209px;
-	height: 90px;
-}
-
-.logo-2-clik{
-	background-position: -892px -637px ;
-	width: 209px;
-	height: 87px;
-}
-
-.logo-3{
-	background-position: -984px -551px ;
-	width: 185px;
-	height: 52px;
-}
-
-.logo-3-hover{
-	background-position: -1222px -552px ;
-	width: 185px;
-	height: 52px;
-}
-
-.logo-3-clik{
-	background-position: -1449px -551px ;
-	width: 185px;
-	height: 52px;
-}
-
-.logo-4{
-	background-position: -1746px -493px ;
-	width: 173px;
-	height: 84px;
-}
-
-.logo-4-hover{
-	background-position: -1971px -491px ;
-	width: 173px;
-	height: 84px;
-}
-
-.logo-4-clik{
-	background-position: -2172px -487px ;
-	width: 173px;
-	height: 84px;
-}
-
 .bgr{
 	background-position: -17px -832px ;
 	width: 1440px;
@@ -384,5 +312,77 @@
 	background-position: -1323px -686px ;
 	width: 18px;
 	height: 18px;
+}
+
+.logo-1{
+	background-position: -1624px -1508px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-1-clik{
+	background-position: -1614px -1704px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-1-hover{
+	background-position: -1928px -1502px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-2{
+	background-position: -42px -1902px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-2-clik{
+	background-position: -350px -1900px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-2-hover{
+	background-position: -656px -1900px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-3{
+	background-position: -962px -1898px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-3-clik{
+	background-position: -1244px -1896px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-3-hover{
+	background-position: -1526px -1892px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-4{
+	background-position: -1930px -1700px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-4-clik{
+	background-position: -1830px -1912px ;
+	width: 260px;
+	height: 180px;
+}
+
+.logo-4-hover{
+	background-position: -2122px -1918px ;
+	width: 260px;
+	height: 180px;
 }
 
