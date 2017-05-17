@@ -22,16 +22,26 @@
     </header>
     <main>
         <div class="magazine_wrap_row_1 clearfix">
-            <form class="magazine_container left clearfix">
+            <form class="magazine_container left clearfix" action="form.php" method="GET">
                 <h2>Стоимость:</h2>
                 <div class="form_1_box clearfix">
-                    <div class="range_box clearfix">
-                    <input value="1" min="0" max="15000" step="1" type="range">
+                    <div class="range_filter">
+                        <div class="range_controls">
+                            <div class="scale">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="toggle toggle_min"></div>
+                            <div class="toggle toggle_max"></div>
+                        </div>
+                        <div class="price_controls">
+                            <label class="min_price">
+                                от<input type="text" value="0" name="min_price"/>
+                            </label>
+                            <label class="max_price">
+                                до<input type="text" value="15000" name="max_price"/>
+                            </label>
+                        </div>
                     </div>
-                    <label for="min_value">от</label>
-                    <input type="text" id="min_value" placeholder="0" class="price_value">
-                    <label for="max_value">до</label>
-                    <input type="text" id="max_value" placeholder="15000" class="price_value">
                 </div>
                 <h2>Сетка:</h2>
                 <div class="form_1_box clearfix">
@@ -57,7 +67,7 @@
                 </div>
                 <button type="submit">Показать</button>
             </form>
-            <form class="magazine_container right clearfix">
+            <form class="magazine_container right clearfix" action="form.php" method="GET">
                 <div class="radio_buttons_right clearfix">
                     <h2>Сортировать:</h2>
                     <input type="radio" id="sort_by_price" name="sort_par_1" checked>
