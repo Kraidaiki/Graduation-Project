@@ -489,15 +489,6 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.header_wrap,
-.row_1_container,
-.row_2_container,
-.row_3_container,
-.row_4_container {
-    position: relative;
-    margin: 0 auto;
-    width: 1165px;
-}
 .logo_link {
     width: 160px;
     height: 65px;
@@ -544,46 +535,6 @@ body {
     width: 15px;
 	height: 15px;
     background: url(../img/sprites.png) no-repeat -7px -258px;
-}
-.wrap_box:nth-of-type(1) {
-	width: 400px;
-	float: left;
-}
-.wrap_box:nth-of-type(2) {
-	width: 698px;
-	height: 413px;
-	float: right;
-    margin: 16px 0 0 0;
-	background: url(../img/sprites.png) no-repeat -213px 0;
-}
-.wrap_box > h1 {
-    margin: 85px 0 28px 0;
-    font-size: 55px;
-}
-.wrap_box > p {
-    margin: 0 0 48px 0;
-    font-size: 16px;
-}
-.wrap_box > a {
-	display: block;
-    width: 240px;
-	height: 50px;
-    background-color: #fb565a;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #fff;
-    border-radius: 5px;
-	line-height: 50px;
-	text-align: center;
-}
-.wrap_box > a:hover {
-    background-color: #e74246;
-}
-.wrap_box > a:active {
-    background-color: #d7373b;
-    color: #e37376;
-    box-shadow: inset 0 3px 0 0 #c13135;
 }
 .container_box {
 	float: left;
@@ -854,30 +805,6 @@ body {
     margin: 90px 0 0 360px;
     background: url(../img/sprites.png) no-repeat -1501px -652px;
 }
-.wrap_pagination {
-    position: absolute;
-    bottom: 96px;
-    left: 675px;
-    font-size: 0;
-}
-.wrap_pagination input {
-    display: none;
-}
-.wrap_pagination > input + label {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background: #fff;
-    cursor: pointer;
-    margin: 0 17px 0 0;
-}
-.wrap_pagination > input:checked + label {
-    background: url(../img/sprites.png) no-repeat -1323px -686px;
-}
-.wrap_pagination label:last-of-type {
-    margin: 0;
-}
 .header > h1 {
     margin: 83px 0 112px 0;
     text-align: center;
@@ -1137,7 +1064,6 @@ body {
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
-    margin: 50px 0 0 0;
 }
 .magazine_container:nth-of-type(1) button:hover {
     background: #dbdbdb;
@@ -1209,4 +1135,102 @@ body {
   border: none;
   border-radius: 5px;
   background: #eee;
+}
+.slider {
+  position: relative;
+  width: 1160px;
+  height: 417px;
+  margin: 0 auto;
+}
+.slider-controls {
+  position: absolute;
+  bottom: 91px;
+  left: 584px;
+  width: 200px;
+  height: 18px;
+  margin: 0 0 0 -100px;
+  text-align: center;
+  z-index: 1;
+}
+.slider-controls label{
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 3px;
+  background: white;
+  vertical-align: top;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+  background: url(../img/sprites.png) no-repeat -1323px -686px;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.slide-text {
+  width: 550px;
+  padding: 30px 0;
+  color: #283136;
+}
+.slide-title {
+  font-size: 55px;
+  line-height: 1;
+  font-family: "Roboto-Medium";
+  color: #000;
+}
+.btn {
+  display: block;
+  width: 240px;
+  padding: 19px 0;
+  margin: 25px 0 0 0;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  background: #fb565a;
+  border-radius: 3px;
+}
+.slide:nth-child(1) {
+  background: url(../img/sprites.png) no-repeat 290px -2218px;
+}
+.slide:nth-child(2) {
+  background: url(../img/sprites.png) no-repeat -281px -2760px;
+}
+.slide:nth-child(3) {
+  background: url(../img/sprites.png) no-repeat -985px -2195px;
+}
+.slide {
+  display: none;
+}
+#btn-1:checked ~ .slides .slide:nth-child(1) {
+  display: block;
+}
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+  display: block;
+}
+#btn-3:checked ~ .slides .slide:nth-child(3) {
+  display: block;
+}
+.slide-text > p {
+    margin: 41px 0 41px 0;
+}
+.btn:hover {
+	background: #e74246;
+}
+.btn:active {
+	background: #d7373b;
+	color: #e37376;
+    box-shadow: inset 0 3px 0 0 #c13135;
+}
+.slider > input {
+    display: none;
 }
