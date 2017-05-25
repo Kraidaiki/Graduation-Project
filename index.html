@@ -10,8 +10,10 @@
 </head>
 <body>
     <header class="header clearfix">
-         <nav class="nav_list clearfix">
+        <div class="container-logo-link">
             <a href="index.html" class="logo_link"></a>
+        </div>
+        <nav class="nav_list clearfix">
             <a href="index.html" class="index_page">Студия</a>
             <a href="">Клиенты</a>
             <a href="magazine.html">Магазин</a>
@@ -113,12 +115,36 @@
             </div>
         </div>
         <div class="wrap_row_4 clearfix">
-            <div class="clearfix">
+            <div class="clearfix contacts">
                 <h3>NЁRDS DESIGN STUDIO</h3>
                 <p>191186, Санкт-Петербург,<br>  ул. Б. Конюшенная, д. 19/8<br><br> тел. +7 (812) 275-75-75</p>
                 <button type="submit">Напишите нам</button>
             </div>
-            <div class="clearfix"></div>
+            <div class="clearfix ballun"></div>
+            <div class="modal">
+                <form action="">
+                    <button type="button" class="close">
+                        <img src="img/close-cross-hover.png" alt="close" width="21" height="21">
+                    </button>
+                    <h2>Напишите нам</h2>
+                    <div class="modal-box">
+                        <label for="name">Ваше имя:
+                            <input type="text" placeholder="Представьтесь,пожалуйста" id="name">
+                        </label>
+                    </div>
+                     <div class="modal-box">
+                        <label for="Email">Ваш Email:
+                            <input type="text" placeholder="Для отправки ответа" id="Email">
+                        </label>
+                    </div>
+                    <div class="modal-box">
+                        <label for="Text">Текст письма:
+                            <input type="text" placeholder="В свободной форме" id="Text">
+                        </label>
+                    </div>
+                    <button type="submit">отправить</button>
+                </form>
+            </div>
         </div>
     </main>
     <footer class="footer clearfix">
